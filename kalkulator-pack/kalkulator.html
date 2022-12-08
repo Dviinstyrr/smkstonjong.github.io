@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kalkulator</title>
+</head>
+<body>
+    <h1>Kalkulator</h1>
+    <div class="container-form">
+        <form>
+            <input class="type" type="text" id="input" />
+                <br /> <br /> <br />
+                    <input class="btn" type="button" value="1" onclick="tambah('1')" />
+                    <input class="btn" type="button" value="2" onclick="tambah('2')" />
+                    <input class="btn" type="button" value="3" onclick="tambah('3')" />
+                    <input class="btn" type="button" value="+" onclick="tambah('+')" />
+                    <br />
+                    <input class="btn" type="button" value="4" onclick="tambah('4')" />
+                    <input class="btn" type="button" value="5" onclick="tambah('5')" />
+                    <input class="btn" type="button" value="6" onclick="tambah('6')" />
+                    <input class="btn" type="button" value="-" onclick="tambah('-')" />
+                    <br />
+                    <input class="btn" type="button" value="7" onclick="tambah('7')" />
+                    <input class="btn" type="button" value="8" onclick="tambah('8')" />
+                    <input class="btn" type="button" value="9" onclick="tambah('9')" />
+                    <input class="btn" type="button" value="*" onclick="tambah('*')" />
+                    <br />
+                    <input class="btn" type="button" value="0" onclick="tambah('0')" />
+                    <input class="btn" type="button" value="C" onclick="bersih()" />
+                    <input class="btn" type="button" value="=" onclick="hasil()" />
+                    <input class="btn" type="button" value="/" onclick="tambah('/')" />
+            </form>
+        </div>
+        <div class="box"></div>
+    <script src="script.js"></script>
+</body>
+</html>

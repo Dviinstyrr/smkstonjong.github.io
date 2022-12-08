@@ -1,0 +1,58 @@
+@media only screen and (max-width: 600px) {
+    /* Aturan CSS yang hanya akan diterapkan jika
+       ukuran layar lebih kecil dari atau sama dengan 600px */
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+}
+
+
+body {
+    font-family: "Roboto";
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.container-form {
+    position: relative;
+    display: flex;
+    z-index: revert;
+    margin-left: 575px;
+}
+
+.type {
+    text-decoration: none;
+    outline: none;
+    height: 25px;
+    width: 180px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    background-color: rgba(0, 0, 0, 0.0);
+    border: none;
+    height: 40px;
+    width: 40px;
+}
+
+.box {
+    z-index: 1;
+    position: relative;
+    padding-top: 60px;
+    margin-left: 575px;
+    margin-bottom: 575px;
+    width: 200px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px ;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2);
+}
